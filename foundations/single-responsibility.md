@@ -1,0 +1,3 @@
+# Single Responsibility
+
+// ... content to be added ... 

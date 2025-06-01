@@ -1,24 +1,7 @@
-# Foundations Overview
+# Framework Overview
 
-The Foundations section covers the fundamental concepts and principles that form the backbone of the Apex Well-Architected Framework.
+AWAF is based on 11 core themes, and then the framework itself. 
 
-## Key Areas
+Each theme corresponds to one chapter of the book [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y). The themes are the building blocks to help you to think differently about Apex code. 
 
-1. **Core Concepts**
-   - Understanding the basic building blocks
-   - Key terminology and definitions
-   - Framework architecture
-
-2. **Best Practices**
-   - Implementation guidelines
-   - Common patterns and anti-patterns
-   - Performance considerations
-
-## How to Use This Section
-
-This section is designed to be read sequentially, starting with the overview and moving through each concept. Each topic builds upon the previous ones, creating a comprehensive understanding of the framework.
-
-## Next Steps
-
-- Dive into [Core Concepts](/foundations/core-concepts)
-- Learn about [Best Practices](/foundations/best-practices) 
+The framework itself is a set of guiding principles that address the limitations of FFLIB and gives specific guidelines around modelling business logic in Apex. It brings all the 11 themes into a coherent whole.
