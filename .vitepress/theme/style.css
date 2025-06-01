@@ -1,4 +1,13 @@
 /**
+ * Font Configuration
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-font-family-base: 'Kumbh Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+/**
  * Customize default theme styling by overriding CSS variables:
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
@@ -112,9 +121,42 @@
   --vp-home-hero-image-filter: blur(44px);
 }
 
+/* Hero title adjustments for Kumbh Sans font */
+.VPHero .text {
+  white-space: nowrap;
+  font-size: clamp(2rem, 8vw, 4rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* Hero layout adjustments - move logo to the right on desktop */
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);
+  }
+  
+  .VPHero .container {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+  
+  .VPHero .main {
+    flex: 1;
+    max-width: 60%;
+  }
+  
+  .VPHero .image {
+    flex-shrink: 0;
+    margin-left: auto;
+    transform: translateX(4rem);
+  }
+}
+
+@media (max-width: 639px) {
+  .VPHero .text {
+    white-space: normal;
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
   }
 }
 

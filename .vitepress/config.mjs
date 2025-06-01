@@ -4,19 +4,32 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "awaf",
   description: "The Apex Well-Architected Framework",
+  head: [
+    [
+      'link',
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap' }
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Documentation', link: '/introduction' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Introduction', link: '/introduction' }
+        ]
+      },
+      {
+        text: 'Foundations',
+        items: [
+          { text: 'Overview', link: '/foundations/overview' },
+          { text: 'Core Concepts', link: '/foundations/core-concepts' },
+          { text: 'Best Practices', link: '/foundations/best-practices' }
         ]
       }
     ],
