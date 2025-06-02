@@ -24,7 +24,7 @@ This framework has become incredibly popular in the Salesforce community, and fo
 
 One of the primary challenges with this framework is how it positions itself as a solution for achieving "separation of concerns" (SoC). The messaging around SoC is so emphatic that it even tells us there are scenarios where you might choose not to implement SoC. For instance, at the time of writing, the Trailhead module on this topic includes a section titled "When You Don't Need SoC on Salesforce," suggesting that SoC is both binary and optional.
 
-Those who have read the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book will probably know that SoC is not something you can directly implement, it's an outcome. It emerges from applying the principles of modularity, coupling, and cohesion that are explored throughout the book. Furthermore, SoC is not binary; it doesn't simply exist or not exist. Like coupling, it operates on a spectrum, and it is a degree (low coupling vs. high coupling).
+Those who have read the [Clean Apex Code](https://a.co/d/gSCaIhO) book will probably know that SoC is not something you can directly implement, it's an outcome. It emerges from applying the principles of modularity, coupling, and cohesion that are explored throughout the book. Furthermore, SoC is not binary; it doesn't simply exist or not exist. Like coupling, it operates on a spectrum, and it is a degree (low coupling vs. high coupling).
 
 The issue isn't just the inaccurate terminology. Our concern is that this way of thinking might discourage developers from critically engaging with the principles of SoC. Instead, they may blindly follow patterns, treating them as prescriptive rather than adaptable.
 
@@ -107,7 +107,7 @@ A progressive framework grows with your codebase. You start small, using only wh
 
 ### Not built for Salesforce
 
-Finally, FFLIB is based on Martin Fowler's work on enterprise patterns. His book was written in 2002 and is based on his experience working with old Java applications, not modern architectures. That on its own is not a problem, after all, the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book has an entire chapter dedicated OOP even though many of its concepts are much older, and there are often better alternatives today. We also believe there's a lot of value in taking inspiration from other realms of software design and applying those ideas to Salesforce. In fact, if you think about it, that's what this site is all about.
+Finally, FFLIB is based on Martin Fowler's work on enterprise patterns. His book was written in 2002 and is based on his experience working with old Java applications, not modern architectures. That on its own is not a problem, after all, the [Clean Apex Code](https://a.co/d/gSCaIhO) book has an entire chapter dedicated OOP even though many of its concepts are much older, and there are often better alternatives today. We also believe there's a lot of value in taking inspiration from other realms of software design and applying those ideas to Salesforce. In fact, if you think about it, that's what this site is all about.
 
 The problem is that when Fowler came up with these patterns, he wasn't working with Salesforce in 2025. He was solving problems in old, monolithic Java applications; systems that had full control over business logic, state, and execution flow.
 

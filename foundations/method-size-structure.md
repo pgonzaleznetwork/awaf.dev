@@ -67,6 +67,6 @@ Avoid forcing users to chain together several shallow methods just to get someth
 
 ## What else could you learn?
 
-This principle is based on Chapter 4 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 4 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
 The full chapter includes advanced more examples of deep vs shallow modules, and concrete guidelines for when and how to split longer methods into shorter ones.

@@ -50,6 +50,6 @@ But they come with trade-offs. They add complexity, and they test behaviour in i
 
 ## What else could you learn?
 
-This principle is based on Chapter 12 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 12 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
 In the book, you'll learn how to build both kinds of tests and combine them in a way that supports real CI. You'll also see how to stub SOQL queries, create DML mocks and more. If you've ever felt like testing in Apex is harder than it should be, this is the chapter you’ve been waiting for.

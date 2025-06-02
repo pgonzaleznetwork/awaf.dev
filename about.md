@@ -1,3 +1,3 @@
-The Apex Well-Architected Framework was created by [Pablo Gonzalez](https://www.linkedin.com/in/pablis/) during his work on the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book.
+The Apex Well-Architected Framework was created by [Pablo Gonzalez](https://www.linkedin.com/in/pablis/) during his work on the [Clean Apex Code](https://a.co/d/gSCaIhO) book.
 
 Pablo started his career as a Salesforce developer and later moved into product management, where he focuses on building tools that make life easier for developers. He’s worked on Salesforce DevOps products like HappySoup, Salto, and AutoRABIT, blending his technical skills with his love for solving practical problems.

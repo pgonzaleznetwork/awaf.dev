@@ -93,6 +93,6 @@ Can you redefine the operation so that edge cases disappear? When you can, do it
 
 ## What else could you learn?
 
-This principle is based on Chapter 9 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 9 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
 The full chapter includes deeper explanations for each software design principle, and more advanced examples, specially for Dependency Inversion. 

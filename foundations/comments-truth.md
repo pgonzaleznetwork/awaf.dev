@@ -94,6 +94,6 @@ If you’re afraid to delete code, the real issue is lack of trust in your tools
 
 ## What else could you learn?
 
-This principle is based on Chapter 5 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 5 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
 The full chapter includes more examples of good and bad comments.

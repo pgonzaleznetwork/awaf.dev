@@ -13,9 +13,7 @@ hero:
     - theme: brand
       text: Get Started
       link: /introduction
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+
 
 features:
   - title: A Modern Alternative to FFLIB (Apex Enterprise Patterns)

@@ -69,6 +69,6 @@ You don’t need a DI container or custom framework to apply this principle. Inj
 
 ## What else could you learn?
 
-This principle is based on Chapter 7 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 7 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
  The full chapter also covers knowledge vs. metadata coupling, the role of infrastructure services, late binding, and how DI connects with the Inversion of Control Principle.

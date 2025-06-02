@@ -1,6 +1,6 @@
 ## The Apex Well-Architected Framework
 
-The Apex Well-Architected Framework is meant to provide guiding principles and specific recommendations for structuring your Apex codebase. Many of the recommendations are based on the principles covered in the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book.
+The Apex Well-Architected Framework is meant to provide guiding principles and specific recommendations for structuring your Apex codebase. Many of the recommendations are based on the principles covered in the [Clean Apex Code](https://a.co/d/gSCaIhO) book.
 
 > [!NOTE]
 > We see the irony in critiquing the concept of a framework only to propose another. The difference is that FFLIB is an implementation framework that dictates where to put your code because "that's how the framework works." AWAF, on the other hand, is a **principles-based framework** that provides guidelines to help you think about software design.

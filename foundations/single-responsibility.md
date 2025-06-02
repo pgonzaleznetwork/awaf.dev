@@ -93,7 +93,7 @@ dmlOperation.execute();
 ```
 
 ::: tip
-How to build this fluent interface is explored in detail in Chapter 3 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book.
+How to build this fluent interface is explored in detail in Chapter 3 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book.
 :::
 
 ## Use a simple checklist
@@ -112,6 +112,6 @@ You’ll often need methods that do many things to accomplish a single goal. Tha
 
 ## What else could you learn?
 
-This principle is based on Chapter 3 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 3 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
 The full chapter includes advanced examples of using polymorphism, the strategy design pattern and fluent interfaces to simplify complex operations that need to "do many things".

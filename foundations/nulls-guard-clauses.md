@@ -103,6 +103,6 @@ This pattern avoids wasted execution and surfaces bad input early.
 
 ## What else could you learn?
 
-This principle is based on Chapter 6 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 6 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
 The full chapter includes deeper discussions around null vs empty, and the performance implications of checking if lists are empty before executing DML statements.

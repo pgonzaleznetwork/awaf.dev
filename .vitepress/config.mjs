@@ -61,11 +61,6 @@ export default defineConfig({
           { text: 'Mocking the database for real CI', link: '/foundations/unit-testing-apex' }
         ]
       }
-      
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })

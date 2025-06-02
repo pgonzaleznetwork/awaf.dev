@@ -64,6 +64,6 @@ If the steps are *not* meant to be atomic, then isolating them across different 
 
 ## What else could you learn?
 
-This principle is based on Chapter 7 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. 
+This principle is based on Chapter 7 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. 
 
 The full chapter includes 3 different techniques for decoupling business process boundaries using queueable apex, platform events and change data capture.

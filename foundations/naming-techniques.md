@@ -53,4 +53,4 @@ Outdated names are just as harmful as unclear ones. Don’t let your code tell y
 
 ## What else could you learn
 
-This principle is based on Chapter 2 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. The full chapter contains many more guidelines, including how to name maps, avoiding magic numbers, and more.
+This principle is based on Chapter 2 of the [Clean Apex Code](https://a.co/d/gSCaIhO) book. The full chapter contains many more guidelines, including how to name maps, avoiding magic numbers, and more.
