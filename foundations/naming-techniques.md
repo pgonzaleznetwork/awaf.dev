@@ -1,6 +1,6 @@
 # Naming Techniques
 
-In Salesforce development, names are everywhere—objects, fields, classes, methods, variables. When the names are clear, the code is clear. When the names are vague, everything feels harder than it should. This chapter is about how small changes to your naming habits can make a big difference.
+Developing on the Salesforce platform involves naming many metadata elements: custom fields, objects, validation rules, flows, Apex classes, methods, and variables. A significant part of understanding what’s going on inside a Salesforce org is deciphering the meaning behind these names.
 
 ## Name by Meaning, Not by Type
 
@@ -10,7 +10,26 @@ This also means you can change the data structure later without changing the nam
 
 ## Boolean Logic Should Feel Like a Concept
 
-Long boolean expressions buried in `if` statements make code harder to follow. Instead, wrap them in a method with a meaningful name:
+Long boolean expressions buried in `if` statements make code harder to follow.
+
+For example, instead of this
+
+```apex
+if ((!String.isBlank(acc.Website) 
+&& !String.isBlank(acc.Industry) 
+|| acc.IsActive && acc.NumberOfEmployees > 0) 
+&& (acc.BillingCountry == 'United States' 
+|| acc.BillingCountry == 'Canada' 
+|| acc.Custom_Field__c) 
+&& acc.LastModifiedDate.daysBetween(System.today()) <= 30) {
+    //do something interesting
+} 
+else {
+    //do something less interesting
+ }
+```
+
+Wrap the expression with a method with a meaningful name:
 
 ```apex
 if (isEligibleForSync(account)) {
@@ -34,4 +53,4 @@ Outdated names are just as harmful as unclear ones. Don’t let your code tell y
 
 ## What else could you learn
 
-This theme is based on Chapter 2 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. The full chapter dives into map naming debates, boolean phrasing patterns, the dangers of magic numbers, how to name things when the context is unclear, and why obsessing over names can sometimes point to deeper design flaws.
+This principle is based on Chapter 2 of the [Clean Apex Code](https://books.google.ie/books/about/Clean_Apex_Code.html?id=4yEc0QEACAAJ&source=kp_book_description&redir_esc=y) book. The full chapter contains many more guidelines, including how to name maps, avoiding magic numbers, and more.

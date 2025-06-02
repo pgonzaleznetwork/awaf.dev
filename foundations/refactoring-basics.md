@@ -1,3 +1,0 @@
-# Refactoring Basics
-
-// ... content to be added ... 
