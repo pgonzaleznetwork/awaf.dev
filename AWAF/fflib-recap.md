@@ -93,9 +93,9 @@ public class OpportunitiesSelector {
 
 When every method becomes this specific, the pattern doesn't encourage reusability. Instead, it often leads to developers creating new tailored methods or modifying existing ones, at the risk of breaking other classes that depend on them. As the class grows, it becomes harder to come up with [meaningful and descriptive names](/foundations/naming-techniques.md).
 
-In other words, the selector ends up exposing a complicated interface while offering limited value. As we've seen many times throughout this book, this is the textbook definition of a shallow module.
+In other words, the selector ends up exposing a complicated interface while offering limited value. This is the textbook definition of a shallow module.
 
-In our opinion, the main benefit of this approach is to enable mocking of the queries during tests, as we discussed in the previous chapter. However, there are other techniques for mocking queries that are much more lightweight and don't require a centralized selector.
+In our opinion, the main benefit of this approach is to enable mocking of the queries during tests. However, there are other techniques for mocking queries that are much more lightweight and don't require a centralized selector.
 
 ### Over-engineering
 
