@@ -1,6 +1,6 @@
 ## Selector Classes
 
-A big part of FFLIB is the selector classes, which are used to encapsulate all SOQL queries. As explained earlier, these classes quickly become shallow modules.
+A big part of FFLIB is the selector classes, which are used to encapsulate all SOQL queries. As explained earlier, these classes quickly become [shallow modules](/foundations/method-size-structure.md#shallow-vs-deep-modules)
 
 However, one advantage of selector classes is that because the query is wrapped with a class, you can mock that class during tests. This can be orders of magnitude easier than inserting dozens of records and trying to pass all validation rules in a test class.
 
