@@ -1,6 +1,6 @@
 ## What is AWAF?
 
-There isn't an agreed approach to structuring Salesfororce Apex code and organising files and modules. Most orgs organically grow into a big ball of mud, where it's impossible to untangle anything without frustration. Other orgs early on adopt a framework like [FFLIB (Apex Enterprise Patterns)](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl), created by Andrew Fawcett. And other orgs achieve some level of modularity with unlocked packages and internal libraries.
+There isn't an agreed approach to structuring Salesforce Apex code and organising files and modules. Most orgs organically grow into a big ball of mud, where it's impossible to untangle anything without frustration. Other orgs early on adopt a framework like [FFLIB (Apex Enterprise Patterns)](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl), created by Andrew Fawcett. And other orgs achieve some level of modularity with unlocked packages and internal libraries.
 
 The goal of the Apex Well-Architected Framework (AWAF) is to propose a new way to structure an Apex codebase and to provide opinionated recommendations on what libraries and tools you should use. 
 
