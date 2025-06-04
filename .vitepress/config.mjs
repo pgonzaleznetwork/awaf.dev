@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "awaf",
   description: "The Apex Well-Architected Framework",
+  appearance: false,
   head: [
     [
       'link',

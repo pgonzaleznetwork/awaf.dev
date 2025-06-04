@@ -113,12 +113,8 @@
     #818cf8
   );
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #4f46e5 50%,
-    #818cf8 50%
-  );
-  --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
 }
 
 /* Hero title adjustments for Kumbh Sans font */
@@ -132,7 +128,7 @@
 /* Hero layout adjustments - move logo to the right on desktop */
 @media (min-width: 640px) {
   :root {
-    --vp-home-hero-image-filter: blur(56px);
+    --vp-home-hero-image-filter: none;
   }
   
   .VPHero .container {
@@ -162,7 +158,7 @@
 
 @media (min-width: 960px) {
   :root {
-    --vp-home-hero-image-filter: blur(68px);
+    --vp-home-hero-image-filter: none;
   }
 }
 
