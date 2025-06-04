@@ -9,10 +9,12 @@ export default defineConfig({
     [
       'link',
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap' }
-    ]
+    ],
+    ['link', { rel: 'icon', href: '/fav_icon.png' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/awaf-logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/introduction' }
