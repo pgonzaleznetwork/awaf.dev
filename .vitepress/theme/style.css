@@ -181,3 +181,55 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * Component: Pencil Highlight
+ * -------------------------------------------------------------------------- */
+
+.pencil-highlight {
+  background: linear-gradient(
+    104deg,
+    transparent 5%,
+    rgba(191, 219, 254, 0.4) 10%,
+    rgba(191, 219, 254, 0.5) 50%,
+    rgba(191, 219, 254, 0.4) 90%,
+    transparent 95%
+  );
+  background-size: 100% 70%;
+  background-position: 0 85%;
+  background-repeat: no-repeat;
+  padding: 0.05em 0.2em;
+  border-radius: 6px;
+  transform: rotate(-0.5deg);
+  display: inline;
+}
+
+/* Alternative pencil highlight with more texture */
+.pencil-highlight-alt {
+  position: relative;
+  display: inline;
+  color: inherit;
+}
+
+.pencil-highlight-alt::before {
+  content: '';
+  position: absolute;
+  left: -0.15em;
+  right: -0.15em;
+  top: 0.15em;
+  bottom: 0.05em;
+  background: 
+    radial-gradient(ellipse at center, rgba(99, 102, 241, 0.4) 0%, transparent 50%),
+    linear-gradient(95deg, 
+      transparent 15%,
+      rgba(99, 102, 241, 0.2) 20%,
+      rgba(99, 102, 241, 0.35) 35%,
+      rgba(99, 102, 241, 0.25) 50%,
+      rgba(99, 102, 241, 0.3) 65%,
+      rgba(99, 102, 241, 0.2) 80%,
+      transparent 85%
+    );
+  transform: rotate(-0.8deg) skew(-3deg, 0deg);
+  border-radius: 60% 25% 50% 35%;
+  z-index: -1;
+}
+

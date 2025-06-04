@@ -5,9 +5,9 @@ layout: home
 hero:
   name: "awaf"
   text: "Apex Well Architected"
-  tagline: The Apex Well-Architected Framework is how senior Salesforce developers scale their codebases with modern design patterns.
+  tagline: The Apex Well-Architected Framework is how <span class="pencil-highlight">senior Salesforce developers</span> scale their codebases with modern design patterns.
   image:
-    src: /logo-shadow.svg
+    src: /awaf_blue.svg
     alt: Vitest
   actions:
     - theme: brand
