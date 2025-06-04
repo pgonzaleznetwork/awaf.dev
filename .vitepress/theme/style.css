@@ -194,8 +194,8 @@
     rgba(191, 219, 254, 0.4) 90%,
     transparent 95%
   );
-  background-size: 100% 70%;
-  background-position: 0 85%;
+  background-size: 100% 60%;
+  background-position: 0 95%;
   background-repeat: no-repeat;
   padding: 0.05em 0.2em;
   border-radius: 6px;
