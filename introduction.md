@@ -6,6 +6,6 @@ The goal of the Apex Well-Architected Framework (AWAF) is to propose a new way t
 
 It's not a "put this here" kind of framework. It's a set of ideas to help you and your team make better decisions as your org grows. It's based on the same concepts covered in [Clean Apex Code](https://a.co/d/gSCaIhO)—things like modularity, coupling, cohesion, and testability—but it doesn't force you into a specific setup. 
 
-Our vision is that every team can implement AWAF, yet each implementation can be completely different. In a way, no one should be able to tell you what an org using AWAF looks like; instead, **they should be able to tell you what working in such an org feels like**. A developer may work on two completely different codebases, yet the experience should feel the same.
+Our vision is that every team can implement AWAF, yet each implementation can be completely different. In a way, no one should be able to tell you what an org using AWAF looks like; instead, **they should be able to tell you what working in such an org feels like**. A developer may work on two completely different codebases, yet the experience should **feel the same**.
 
 Finally, AWAF is meant to be a modern alternative to FFLIB for those who find the framework unsatisfactory.

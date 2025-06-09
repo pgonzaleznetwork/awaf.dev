@@ -24,9 +24,11 @@ This framework has become incredibly popular in the Salesforce community, and fo
 
 One of the primary challenges with this framework is how it positions itself as a solution for achieving "separation of concerns" (SoC). The messaging around SoC is so emphatic that it even tells us there are scenarios where you might choose not to implement SoC. For instance, at the time of writing, the Trailhead module on this topic includes a section titled "When You Don't Need SoC on Salesforce," suggesting that SoC is both binary and optional.
 
-Those who have read the [Clean Apex Code](https://a.co/d/gSCaIhO) book will probably know that SoC is not something you can directly implement, it's an outcome. It emerges from applying the principles of modularity, coupling, and cohesion that are explored throughout the book. Furthermore, SoC is not binary; it doesn't simply exist or not exist. Like coupling, it operates on a spectrum, and it is a degree (low coupling vs. high coupling).
+Those who have read the [Clean Apex Code](https://a.co/d/gSCaIhO) book will probably know that SoC is not something you can directly implement, it's an outcome. It emerges from applying the principles of modularity, coupling, and cohesion that are explored throughout the book. Furthermore, SoC is not binary; it doesn't simply exist or not exist. Like coupling, it operates on a spectrum, and it is a degree (low coupling vs. high coupling, and low SoC vs high SoC).
 
 The issue isn't just the inaccurate terminology. Our concern is that this way of thinking might discourage developers from critically engaging with the principles of SoC. Instead, they may blindly follow patterns, treating them as prescriptive rather than adaptable.
+
+In short, the framework encourages developers not to think. 
 
 We would much rather see a team of Salesforce developers engaging in ongoing discussions about modularity in their org, debating where responsibilities should lie and how to maintain cohesion, than simply adding a method to the service class because the framework dictates it.
 
@@ -38,7 +40,7 @@ We believe FFLIB thrives in a managed package environment, where the objects you
 
 In other words, this framework is well-suited for building a well-defined product with clear boundaries, such as an AppExchange package. Managed package development typically involves controlled data models and cohesive teams, which we think makes FFLIB a great fit. In fact, the framework originated from the lessons learned when building managed packages (plus Martin Fowler's teachings).
 
-However, this isn't the reality for most development teams. In a typical enterprise company, developers and consultants come and go, and many different departments shape how Salesforce is used. Take the Opportunity object, for example. It might serve marketing, sales, and customer support, each with its own unique logic and requirements. Cramming all of that into a single `OpportunityService` class is exactly what the Single-Responsibility Principle (SRP) encourages us to avoid.
+However, this isn't the reality for most development teams. In a typical enterprise company, developers and consultants come and go, and many different departments shape how Salesforce is used. Take the Opportunity object, for example. It might serve marketing, sales, and customer support, each with its own unique logic and requirements. Cramming all of that into a single `OpportunityService` class is exactly what [the Single-Responsibility Principle (SRP) encourages us to avoid.](/foundations/design-principles.md#single-responsibility-principle)
 
 Just as a reminder, SRP tells us that if the same module can change for different reasons—like different requests from marketing, sales, or support—it's better to split them up. Otherwise, changes in one area could have unintended consequences in another, making the code harder to maintain and more error-prone.
 
@@ -95,9 +97,9 @@ When every method becomes this specific, the pattern doesn't encourage reusabili
 
 In other words, the selector ends up exposing a complicated interface while offering limited value. This is the textbook definition of a [shallow module](/foundations/method-size-structure.md#shallow-vs-deep-modules)
 
-In our opinion, the main benefit of this approach is to enable mocking of the queries during tests. However, there are other techniques for mocking queries that are much more lightweight and don't require a centralized selector.
+In our opinion, the main benefit of this approach is to enable mocking of the queries during tests. However, there are [other techniques for mocking queries](/AWAF/selector-classes.md) that are much more lightweight and don't require a centralized selector.
 
-### Over-engineering
+### Over-engineered for Salesforce
 
 Because FFLIB is not a way of thinking but rather a specific implementation, it comes with a lot of baggage. There are numerous interfaces to implement, which adds complexity. As we discussed in [this session](https://youtu.be/Cgi2EPy5M-0?si=tAbyl1xsMDdQQ3wY), the goal of modularity is to reduce complexity, not increase it. Similarly, the YAGNI principle reminds us to build for today's needs, not for hypothetical future scenarios, though, of course, there are exceptions.
 
