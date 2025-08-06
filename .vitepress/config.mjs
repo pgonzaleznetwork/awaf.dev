@@ -20,6 +20,10 @@ export default defineConfig({
       { text: 'Documentation', link: '/introduction' }
     ],
 
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/pgonzaleznetwork/awaf.dev' }
+    ],
+
     sidebar: [
       {
         text: 'Getting Started',
