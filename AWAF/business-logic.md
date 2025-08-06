@@ -113,7 +113,7 @@ With all this said, let us now give some concrete guidelines as per the AWAF mod
 * Always consider building business logic from the inside out. This enables easier testing and reusability.
 * Where possible, decouple the business logic from the infrastructure logic by using plain and simple dependency injection. For example, consider injecting a wrapper around the `Database` class, so that you can unit-test the pure business logic.
 * Trigger handler classes are considered infrastructure and should contain only the minimal business logic required to route records to the correct class. The bulk of the logic should be inside “functional core” classes. This ensures that business logic remains reusable, testable, and independent of trigger contexts like trigger.new
-* Focus your efforts on identifying where in the [Salesforce DX hierarchy] (/AWAF/sfdx-folders.md) a class should be. It should be in a place where its intent, purpose and business value become obvious.
+* Focus your efforts on identifying where in the [Salesforce DX hierarchy](/AWAF/sfdx-folders.md) a class should be. It should be in a place where its intent, purpose and business value become obvious.
 * Where to put business logic should be influenced by a **desire to increase cohesion**.
 
 In short, rather than prescribing, “business logic should go in this layer because my framework says so,” we encourage you to follow the above principles. They will guide you in making decisions that fit your specific org, team, and use cases.

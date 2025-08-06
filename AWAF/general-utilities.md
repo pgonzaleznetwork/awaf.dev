@@ -1,4 +1,4 @@
-## Logging and Observability
+## General Utilities
 
 [Apex Libra](https://apexlibra.org/apex/) by Piotr Kożuchowski provides general Apex utilities that almost every org will eventually need. For example, the library comes with a lot of built-in methods for dealing with collections
 
