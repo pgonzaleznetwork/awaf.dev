@@ -24,6 +24,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/pgonzaleznetwork/awaf.dev' }
     ],
 
+    footer: {
+      message: 'AWAF is part of the HappySoup universe'
+    },
+
     sidebar: [
       {
         text: 'Getting Started',
