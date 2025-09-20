@@ -25,7 +25,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'AWAF is part of the HappySoup universe'
+      message: 'AWAF is part of the <a href="https://happysoup.io" target="_blank">HappySoup</a> universe'
     },
 
     sidebar: [
